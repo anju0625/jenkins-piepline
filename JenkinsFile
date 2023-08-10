@@ -33,13 +33,6 @@ pipeline {
                 sh "${MAVEN_HOME}/bin/mvn package"
             }
         }
-
-        stage('Deploy') {
-            steps {
-                // Deploy the package using Maven or other deployment tools
-                // Example: sh "${MAVEN_HOME}/bin/mvn deploy"
-            }
-        }
     }
 
     post {
