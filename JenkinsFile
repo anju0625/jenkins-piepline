@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Build the project using Maven
-               mvnw clean install
+               cmd 'mvnw clean install'
             }
         }
 
