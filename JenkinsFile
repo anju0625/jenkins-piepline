@@ -1,9 +1,6 @@
 pipeline {
     agent any
-     
-    }
-
-    stages {
+   stages {
         stage('Checkout') {
             steps {
                 // Checkout your code from the Git repository
