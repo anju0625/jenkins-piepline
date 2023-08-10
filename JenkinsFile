@@ -1,8 +1,6 @@
 pipeline {
     agent any
-     environment {
-        MAVEN_HOME = 'C:\DevTools\apache-maven-3.8.6'
-        set JAVA_HOME = 'C:\Program Files\Java\jre-1.8'
+     
     }
 
     stages {
