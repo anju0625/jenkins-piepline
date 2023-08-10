@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Build the project using Maven
-                sh "${MAVEN_HOME}/bin/mvn clean install"
+               mvnw clean install
             }
         }
 
