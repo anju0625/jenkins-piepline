@@ -3,7 +3,7 @@ pipeline {
    stages {
         stage('Checkout') {
             steps {
-                // Checkout your code from the Git repository
+                // Checkout your code from the Git repo
                 git branch: 'master', url: 'https://github.com/anju0625/jenkins-piepline.git'
             }
         }
