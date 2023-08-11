@@ -11,7 +11,7 @@ pipeline {
         stage('Build and Test') {
             steps {
                 // Set Java and Maven paths temporarily
-                bat "set PATH=%MAVEN_HOME%\\bin;%JAVA_HOME%\\bin;%PATH% && mvn clean install"
+                bat "set PATH=%MAVEN_HOME%\\bin;%JAVA_HOME%\\bin;%PATH% && mvn clean package"
             }
         }
     }
